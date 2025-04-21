@@ -2,12 +2,11 @@
 
 [move]
 version = 3
-
+manifest_digest = "D90EA828FF4FAF5071E6A4242DB5558C7BEC9AC56010D8F1295060C958A4A965"
+deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
 dependencies = [
   { id = "Sui", name = "Sui" },
 ]
-manifest_digest = "433B673CDDE4C490265713ADE662B24E978F352D205184D89FB6DC0CBB2D5351"
-deps_digest = "F8BBB0CCB2491CA29A3DF03D6F92277A4F3574266507ACD77214D37ECA3F3082"
 
 [[move.package]]
 id = "MoveStdlib"
@@ -30,6 +29,6 @@ flavor = "sui"
 
 [env.devnet]
 chain-id = "f4a15ff1"
-original-published-id = "0xcd9b6c28338e1edc0ffb2153dca98e5c8875eed807046154381cd357fb0698eb"
-latest-published-id = "0xcd9b6c28338e1edc0ffb2153dca98e5c8875eed807046154381cd357fb0698eb"
+original-published-id = "0x9ec4223c2a9149d6bfaea7aa15e501c8a0c7d473172b0e6282156c1171611a44"
+latest-published-id = "0x9ec4223c2a9149d6bfaea7aa15e501c8a0c7d473172b0e6282156c1171611a44"
 published-version = "1"
